@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empanada sa Bukid</title>
+    <title>Empanada sa Bukid | Home</title>
     <meta name="description" content="Hand-made empanadas from a family kitchen. Six fillings, three sizes, pick up, campus pre-orders and local delivery.">
     <link rel="icon" href="images/logo-empanada.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,14 +15,20 @@
 
 <body>
 
+    <div class="jump" id="menu"></div>
+    <div class="jump" id="preorder"></div>
+    <div class="jump" id="story"></div>
+    <div class="jump" id="find-us"></div>
+    <div class="jump" id="contact"></div>
+
     <div class="topbar">
         Fresh from the pan and made with real care &middot; <strong>Pickup &amp; local delivery</strong>
     </div>
 
     <header class="site-header">
         <div class="header-inner">
-            <a class="product" href="#home">
-                <img src="images/logo-empanada.jpg" alt="Empanada sa Bukid logo" width="2000" height="1600">
+            <a class="product" href="index.html">
+                <img src="images/logo-empanada.jpg" alt="Empanada sa Bukid logo">
                 <span>
                     <span class="product-name">Empanada sa Bukid</span>
                     <span class="product-tag">Poblacion, Marmag</span>
@@ -31,7 +37,7 @@
 
             <nav class="main-nav" aria-label="Page sections">
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a class="active" href="#home">Home</a></li>
                     <li><a href="#menu">Menu</a></li>
                     <li><a href="#pre-ordr">Pre-Order</a></li>
                     <li><a href="#story">Our Story</a></li>
@@ -43,13 +49,29 @@
     </header>
 
     <main>
-        <section class="bg" id="home">
-            <img class="bg-photo" src="images/logo-empanada.jpg" alt="A pan of freshly fried golden empanadas on a wooden table" width="2000" height="1293">
-            <div class="bg-inner">
-                <div class="paper">
-            </div> 
+        <div class="home" id="home">
+    <section class="bg">
+        <img class="bg-photo" src="images/logo-empanada.jpg" alt="A pan of freshly fried golden empanadas on a wooden table" width="2000" height="1293">
+        <div class="bg-inner">
+            <div class="paper">
+                <img class="bg-stamp" src="images/logo-empanada.jpg" alt="">
+                <p class="kicker">Hand-made in Bukidnon"</p>
+                <h1>Empanada sa Bukid</h1>
+                <p class="bg-sub">A taste of home in every bite. Six fillings, three sizes, fried fresh in our family kitchen beside the houuse.</p>
+            <div class="actions">
+                <a class="btn btn-green" href="menu">See the Menu &rarr;</a>
+                <a class="btn btn-outline" href="#preorder">Pre-order</a>
+            </div>
+                <p class="bg-note">Pickup &middot; Campus Orders &middot; Delivery within the local area</p>
+            </div>
+        </div> 
+    </section>
+    
 
-        </section>
+
+
+
+        </div>  
     </main>
 
     <footer></footer>
