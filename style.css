@@ -129,6 +129,7 @@ main { min-height: 60vh; }
     box-shadow: 0 3px 0 #2C4E29; 
 }
 
+
 #menu:target ~ main .home, #preorder:target ~ main .home, #story:target ~ main .home, #find-us:target ~ main .home, #contact:target ~ main .home { display: none; }
 #menu:target ~ header .main-nav a[href="#home"], #preorder:target ~ header .main-nav a[href="#home"], #story:target ~ header .main-nav a[href="#home"], #find-us:target ~ header .main-nav a[href="#home"], #contact:target ~ header .main-nav a[href="#home"] { background-color: transparent; color: #5A4332; box-shadow: none; }
 #menu:target ~ header .main-nav a[href="#menu"], #preorder:target ~ header .main-nav a[href="#preorder"], #story:target ~ header .main-nav a[href="#story"], #find-us:target ~ header .main-nav a[href="#find-us"], #contact:target ~ header .main-nav a[href="#contact"] { background-color: #3E6B3A; color: #FFF8EC; box-shadow: 0 3px 0 #2C4E29; }
