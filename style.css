@@ -594,3 +594,299 @@ main {
     border-top-color: #3E6B3A;
     box-shadow: 0 14px 26px rgba(59, 42, 30, .12);
 }
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px;
+}
+
+.step {
+    flex: 1 1 190px;
+    max-width: 300px;
+    text-align: center;
+    padding: 10px 14px;
+}
+
+.step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    margin-bottom: 12px;
+    font-family: "Baloo 2", "Trebuchet MS", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FFF8EC;
+    background-color: #C97B3D;
+    border: 3px dashed #FAF3E7;
+    border-radius: 50%;
+}
+
+.step h3 {
+    font-size: 1.25rem;
+    margin-bottom: 6px;
+}
+
+.step p {
+    font-size: .94rem;
+    color: #6A5443;
+}
+
+
+.info-card {
+    flex: 1 1 260px;
+    max-width: 340px;
+    padding: 24px 26px;
+    background-color: #FFFBF3;
+    border: 1px solid #EBDCC4;
+    border-radius: 18px;
+    box-shadow: 0 8px 16px rgba(59, 42, 30, .06);
+}
+
+.info-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+
+.info-card p {
+    font-size: .95rem;
+    color: #5B4636;
+}
+
+
+.cta-band {
+    position: relative;
+    padding: 90px 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #3B2A1E;
+}
+
+.cta-band img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .55;
+}
+
+.cta-band::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 25, 14, .45);
+}
+
+.cta-inner {
+    position: relative;
+    z-index: 2;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cta-inner h2 {
+    font-size: 2.3rem;
+    color: #FFF8EC;
+}
+
+.cta-inner p {
+    margin: 12px 0 24px;
+    color: #F2E4CE;
+}
+
+
+.footer {
+    background-color: #3B2A1E;
+    color: #EADFCB;
+    padding-bottom: 24px;
+}
+
+.footer-stitch {
+    height: 14px;
+    background-image: repeating-linear-gradient(90deg, #C97B3D 0 16px, transparent 16px 30px);
+}
+
+.footer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 46px 20px 10px;
+}
+
+.footer-col {
+    flex: 1 1 180px;
+}
+
+.footer-col.wide {
+    flex: 2 1 280px;
+}
+
+.footer-product {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.footer-product img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 2px solid #C97B3D;
+    background-color: #FAF3E7;
+}
+
+.footer-product strong {
+    display: block;
+    font-family: "Baloo 2", "Trebuchet MS", sans-serif;
+    font-size: 1.2rem;
+    color: #FFF8EC;
+    line-height: 1.1;
+}
+
+.footer-product small {
+    font-size: .68rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: #D9A876;
+}
+
+.footer p {
+    font-size: .9rem;
+    color: #D8C7AE;
+    max-width: 340px;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #F0B87C;
+    letter-spacing: .04em;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer li {
+    margin-bottom: 8px;
+    font-size: .9rem;
+    color: #D8C7AE;
+}
+
+.footer a {
+    color: #EADFCB;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #FFF8EC;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+    max-width: 1120px;
+    margin: 26px auto 0;
+    padding: 18px 20px 0;
+    border-top: 1px dashed rgba(250, 243, 231, .25);
+    font-size: .82rem;
+    color: #B7A48B;
+}
+
+
+@media (max-width: 860px) {
+    .header-inner {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main-nav ul {
+        justify-content: center;
+    }
+
+    .section {
+        padding: 54px 0;
+    }
+
+    .hero {
+        min-height: 0;
+        padding: 48px 0;
+    }
+
+    .hero h1 {
+        font-size: 2.6rem;
+    }
+
+    .paper {
+        padding: 28px 24px 30px;
+        transform: none;
+    }
+
+    .split {
+        gap: 30px;
+    }
+
+    .split-photo img {
+        height: 300px;
+        transform: none;
+    }
+
+    .section-title {
+        font-size: 1.9rem;
+    }
+
+    .cta-inner h2 {
+        font-size: 1.9rem;
+    }
+
+    .footer-grid {
+        gap: 26px;
+    }
+}
+
+@media (max-width: 560px) {
+    .topbar {
+        font-size: .66rem;
+        letter-spacing: .04em;
+    }
+
+    .hero h1 {
+        font-size: 2.15rem;
+    }
+
+    .hero-sub {
+        font-size: .98rem;
+    }
+
+    .section-title {
+        font-size: 1.7rem;
+    }
+
+    .actions .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card,
+    .size-card,
+    .info-card,
+    .strip-item {
+        max-width: 100%;
+    }
+}
+
