@@ -715,9 +715,9 @@ main {
 .page-head {
     padding: 54px 20px 48px;
     text-align: center;
-    background-color: #e1d3bc59;
-    background-image: repeating-linear-gradient(140deg, rgba(201, 124, 61, 0.051) 0 22px, transparent 22px 44px),
-        repeating-linear-gradient(140deg, rgba(215, 144, 85, 0.097) 0 22px, transparent 22px 44px);
+    background-color: #FBF2E3;
+    background-image: repeating-linear-gradient(90deg, rgba(201, 123, 61, .2) 0 22px, transparent 22px 44px),
+        repeating-linear-gradient(0deg, rgba(201, 123, 61, .2) 0 22px, transparent 22px 44px);
 }
 
 .page-title{
@@ -737,6 +737,13 @@ main {
     max-width: 640px;
     margin: 16px auto 0;
     font-size: 1.02rem
+}
+
+.split-body .kicker {
+    font-size: 1.3rem;
+    letter-spacing: .11em;
+    margin-bottom: 5px;
+    color: #3E6B3A;
 }
 
 /*menu table*/
@@ -802,6 +809,42 @@ main {
 .badge-sweet {
     color: #8A4E1F;
     border-color:#C97B3D;
+}
+
+/*Pre-Order Page*/
+.page-preorder{
+    display: none;
+}
+
+#preorder:target~main .page-preorder {
+    display: block;
+}
+
+/*Our Story Page*/
+.page-story{
+    display: none;
+}
+
+#story:target~main .page-story {
+    display: block;
+}
+
+/*Find Us Page*/
+.page-find-us{
+    display: none;
+}
+
+#find-us:target~main .page-find-us {
+    display: block;
+}
+
+/*Contact Page*/
+.page-contact{
+    display: none;
+}
+
+#contact:target~main .page-contact {
+    display: block;
 }
 
 /*footer*/
