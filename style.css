@@ -703,7 +703,59 @@ main {
     color: #F2E4CE;
 }
 
+/*menu page*/
+.page-menu{
+    display: none;
+}
 
+#menu:target~main .page-menu {
+    display: block;
+}
+
+.page-head {
+    padding: 54px 20px 48px;
+    text-align: center;
+    background-color: #e1d3bc59;
+    background-image: repeating-linear-gradient(140deg, rgba(201, 124, 61, 0.051) 0 22px, transparent 22px 44px),
+        repeating-linear-gradient(140deg, rgba(215, 144, 85, 0.097) 0 22px, transparent 22px 44px);
+}
+
+.page-title{
+    font-size: 2.6rem;
+}
+
+.page-lead {
+    max-width: 640px;
+    margin: 16px auto 0;
+    font-size: 1.02rem
+}
+
+/*menu table*/
+.table-wrap{
+    overflow-x :auto;
+    background-color:#FFFBF3;
+    border: 1px solid #EBDCC4;
+    border-radius: 20px;
+    box-shadow: 0 12px 22px rgba(59, 42, 30, .09);
+}
+
+.menu-table {
+    width: 100%;
+    min-width: 620px;
+    border-collapse: collapse;
+}
+
+.menu-table caption {
+    padding: 20px 22px 12px;
+    text-align: left;
+    font-size: .74rem;
+    font-weight: 700;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color:#3E6B3A
+}
+
+/*footer*/
 .footer {
     background-color: #3B2A1E;
     color: #EADFCB;
